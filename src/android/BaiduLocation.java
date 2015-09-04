@@ -40,8 +40,8 @@ public class BaiduLocation extends CordovaPlugin {
 
                 json.put("time", location.getTime());
                 json.put("locType", location.getLocType());
-                json.put("latitude", location.getLatitude());
-                json.put("lontitude", location.getLongitude());
+                json.put("coords.latitude", location.getLatitude());
+                json.put("coords.lontitude", location.getLongitude());
                 json.put("radius", location.getRadius());
 
                 StringBuilder sb = new StringBuilder(256);
