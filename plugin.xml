@@ -6,7 +6,7 @@
   <name>BaiduLocation</name>
 
   <js-module src="www/baidu_location.js" name="baidu_location">
-    <clobbers target="navigator.geolocation" />
+    <clobbers target="baidu_location" />
   </js-module>
 
   <preference name="API_KEY" />
