@@ -16,7 +16,7 @@
 __此插件就这么诞生了__
 
 ####版本
-基于百度地图Android版定位SDK（v5.3）
+基于百度地图Android版定位SDK（v6.0）
 
 ####一，申请密钥
 请参照：[申请密钥Android定位SDK](http://developer.baidu.com/map/index.php?title=android-locsdk/guide/key)
@@ -39,8 +39,8 @@ baidu_location.getCurrentPosition(successCallback, failedCallback);
 
 ```
 {
-  latitude : 纬度,
-  lontitude: 经度,
+  coords.latitude : 纬度,
+  coords.lontitude: 经度,
   ...
 }
 ```
